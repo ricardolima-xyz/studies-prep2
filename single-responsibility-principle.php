@@ -1,6 +1,12 @@
 #!/usr/bin/env php
 <?php
 
+// Single Responsibility Principle
+// A class should have only one reason to change.
+// In this example, we have a Report class that holds the report data,
+// a ReportFormatter class that formats the report, and a ReportPrinter class that prints the report.
+// This way, each class has a single responsibility and can be modified independently.
+
 declare(strict_types=1);
 
 require_once __DIR__ . '/vendor/autoload.php';
